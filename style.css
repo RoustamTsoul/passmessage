@@ -1,0 +1,54 @@
+body{
+    background: linear-gradient(#FFB6C1, white );
+    overflow:hidden;
+
+}
+
+button{
+    width: fit-content;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid lightblue;
+    border-radius: 8px;
+    background: rebeccapurple;
+
+}
+
+button:hover{
+    background: rgba(0, 0, 0, 0.5);    
+}
+
+.container{
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message{
+    border: 1px solid lightsalmon;
+    background: lightcoral;
+    border-radius: 8px;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    padding: 0 30px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.message input{
+    width: 90%;
+    padding:10px 0;
+    border-radius: 8px;
+    border: 1px solid lightcyan;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+@media (max-width:480px){
+    .message input{
+        width: 82%;
+    }
+}
